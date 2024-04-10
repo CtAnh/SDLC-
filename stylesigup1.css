@@ -1,0 +1,127 @@
+/* stylesigup.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .signup-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 30px; /* Increased padding for better spacing */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); /* Subtle shadow */
+  }
+  
+  form {
+    width: 100%;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; /* Darker heading color */
+    font-weight: bold; /* Stronger heading weight */
+    font-size: 24px; /* Larger heading size */
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333; /* Darker label color */
+    font-weight: normal; /* Lighter label weight */
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 15px; /* Increased padding for readability */
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+    font-size: 16px; /* Larger font size for improved legibility */
+  }
+  
+  .input-group input:focus {
+    border-color: #007bff; /* Blue focus color */
+    outline: none;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 15px 20px; /* Increased padding for better button size */
+    border: none;
+    background-color: #007bff; /* Primary blue color */
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px; /* Larger font size for consistency */
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; /* Darker blue hover color */
+  }
+  
+  .error {
+    color: #dc3545; /* Red error message color */
+    margin-bottom: 15px;
+  }
+  
+  .success {
+    color: #28a745; /* Green success message color */
+    margin-bottom: 15px;
+  }
+  
+  .ca {
+    text-align: center;
+    margin-top: 20px; /* Spacing for better separation */
+  }
+  
+  .ca a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .ca a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Optional Enhancements (consider adding these) */
+  
+  .input-group input[type="password"] { /* Password field styling */
+    position: relative; /* For password visibility toggle */
+  }
+  
+  .input-group input[type="password"]::after {
+    content: "\f070"; /* Font Awesome icon for eye (replace with your icon library) */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #ccc; /* Light gray color for icon */
+    transition: color 0.3s;
+  }
+  
+  .input-group input[type="password"]:focus + .fa-eye {
+    color: #007bff; /* Blue color on focus or hover */
+  }
+  
+  .input-group input[type="password"]:hover + .fa-eye {
+    color: #007bff; /* Blue color on focus or hover */
+  }
+  
+  /* Add media queries for responsive design (optional but recommended) */
+  @media (max-width: 768px) {
+    .signup-container {
+      
+    }
+}  

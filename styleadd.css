@@ -1,0 +1,78 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5; /* Light gray background */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 70%; /* Slightly narrower container */
+    margin: 80px auto; /* Increased top margin for better placement */
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px; /* Softer corners */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Subtler shadow effect */
+  }
+  
+  h1 {
+    text-align: center;
+    color: #343a40; /* Darker and more prominent heading color */
+    font-size: 24px; /* Increased heading size */
+    margin-bottom: 20px; /* Added spacing after heading */
+  }
+  
+  form {
+    width: 100%;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="submit"] {
+    width: 100%;
+    padding: 15px 20px; /* Increased padding for better readability */
+    margin-top: 15px; /* Reduced margin for a tighter layout */
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    background-color: #fff; /* White background for text inputs */
+  }
+  
+  input[type="submit"] {
+    background-color: #3634c7; /* Green submit button color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smoother hover effect */
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #365ba1; /* Darker green on hover */
+  }
+  
+  .error {
+    color: #dc3545; /* Red error message with a different shade */
+    font-size: 14px;
+    margin-top: 10px; /* Adjusted margin for better placement */
+    display: block;
+  }
+  
+  .btn-cancel {
+    display: inline-block;
+    padding: 12px 25px; /* Increased padding for better proportions */
+    background-color: #e0e0e0; /* Lighter gray for cancel button */
+    color: #343a40; /* Darker text color for better contrast */
+    text-decoration: none;
+    border-radius: 3px; /* More rounded corners */
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-cancel:hover {
+    background-color: #cccccc; /* Slightly darker gray on hover */
+  }
+  
